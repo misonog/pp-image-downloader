@@ -1,0 +1,18 @@
+[project]
+name = "pp-image-downloader"
+version = "0.1.0"
+description = "A CLI tool to download images from Palette Plaza's photo transfer service."
+authors = [
+    {name = "misono",email = "ginpeimisonou@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+packages = [{include = "pp_image_downloader", from = "src"}]
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
