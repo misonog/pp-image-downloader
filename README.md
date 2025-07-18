@@ -70,4 +70,3 @@ pp-image-downloader <URL> <アクセスコード> --exif
     ```
     poetry run pytest
     ```
-```
